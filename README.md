@@ -1,5 +1,8 @@
 # Calculate the Maximum Weight for Weightlifting exercises
 
+Created by: Jason B Giles
+Contact: jasonbgiles@email.arizona.edu
+
 Exercising is important, so is being safe while lifting weights. The idea of a '1 Rep Max' is the maximal weight they could lift safely for one repetition. This can be figured out by increasing weights until you fail. Which is dangerous!! Conversely you can take a users current amount of weights they can lift and the number of reps they did at that weight.
 
 So there will be two *required* arguments ` -w/--weight, -r/--reps` and using a formula will output the 1 rep max weight the user should be lifting.
@@ -9,7 +12,7 @@ Formula
 
 Epley formula
 
-    1  RM = w ( 1 + r 30 )
+    1  RM = w ( 1 + r/30 )
 
 Where w is the weight the user was able to lift and r is the number of reps
 
