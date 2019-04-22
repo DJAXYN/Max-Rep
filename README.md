@@ -38,9 +38,17 @@ Based upon your 5 reps at a weight of 200 lbs, your 1 rep max is 233.33 lbs
 
 Happy Lifting
 ```
-
-The 2nd line `happy lifting` will be printed after a ~time delay.
+The output should be 2 decimal places long and the 2nd line `happy lifting` will be printed after a ~time delay.
 
 # Test Suite
 
 The Test suite will check usage, bad input, and combinations of reps and weight.
+
+To test this program
+
+```
+$ make test
+
+python3 -m pytest -v test.py
+
+```

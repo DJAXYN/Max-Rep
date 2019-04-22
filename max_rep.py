@@ -63,7 +63,7 @@ def main():
     weight = int(weight)
     reps = int(reps)
     if weight<1:
-        print("This is not a valid weight for an average human...")
+        die("This is not a valid weight for an average human...")
     max_rep = weight * (1 + (reps / 30))
     # print(max_rep)
 
