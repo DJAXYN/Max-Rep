@@ -15,7 +15,8 @@ import time
 def get_args():
     """get command-line arguments"""
     parser = argparse.ArgumentParser(
-        description='Argparse Python script',
+        description='A script to calculate the maximum weight you can lift 1 times safely based upon '
+                    'your current lifting weight and number of repititions at that weight',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument(
@@ -74,39 +75,37 @@ def main():
         time.sleep(3)
         print('Arnold Schwarzenegger is that you...?')
         time.sleep(3)
-        print('''
-======================================================David Riley
-
-
-          _                                       _
-    _  _ | |                                     | | _  _
-   | || || |                                     | || || |
- =H| || || |========nnnn=============nnnn========| || || |H=
-   |_||_|| |        |  |             |  |        | ||_||_|
-         |_|        /  |             |  \        |_|
-                   |   |             |   |
-                   \   (_   /~~~\   _)   /
-                    \    \ ( '_' ) /    /
-                     \    )\  =  /(    /
-                      \   (_)   (_)   /
-                       \ /   ~~~   \ /
-                       (             )
-                        \           /
-                         \         /
-                          )==(O)==(
-                         /         \ 
-                        /____/ \____\ 
-                        /   /   \   \ 
-                       /   /     \   \ 
-                      (   )      (   )
-                      |   |      |   |
-                      |   |      |   |
-                      |___|      |___|
-                      (___)      (___)
-======================================================  David Riley     
-              ''')
-
-    die('\nHappy Lifting\n')
+        print(r'''
+    ======================================================David Riley
+    
+    
+              _                                       _
+        _  _ | |                                     | | _  _
+       | || || |                                     | || || |
+     =H| || || |========nnnn=============nnnn========| || || |H=
+       |_||_|| |        |  |             |  |        | ||_||_|
+             |_|        /  |             |  \        |_|
+                       |   |             |   |
+                       \   (_   /~~~\   _)   /
+                        \    \ ( '_' ) /    /
+                         \    )\  =  /(    /
+                          \   (_)   (_)   /
+                           \ /   ~~~   \ /
+                           (             )
+                            \           /
+                             \         /
+                              )==(O)==(
+                             /         \ 
+                            /____/ \____\ 
+                            /   /   \   \ 
+                           /   /     \   \ 
+                          (   )      (   )
+                          |   |      |   |
+                          |   |      |   |
+                          |___|      |___|
+                          (___)      (___)
+        ======================================================  David Riley''')
+    print('Happy Lifting')
 
 
 
